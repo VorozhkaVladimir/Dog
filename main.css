@@ -1,0 +1,222 @@
+body {
+    margin: 0;
+}
+
+.wrapper {
+    width: 1920px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+header {
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+header nav {
+    width: 403px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav a {
+    font-family: montserrat;
+    text-decoration: none;
+    color: #774E2E;
+    font-size: medium;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .section1 {
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+}
+
+main .section1 article {
+    width: 575px;
+    color: #774E2E;
+    margin-top: 160px;
+}
+
+main .section1 article span {
+    color: #F37F34;
+}
+
+main .section1 article h1 {
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 92px;
+}
+
+main .section1 article a {
+    text-decoration: none;
+    background-color: #774E2E;
+    color: white;
+    font-size: 20px;
+    padding: 23px 68px;
+    margin-top: 50px;
+}
+
+main .section1 article p {
+    margin: 0;
+    margin-top: 40px;
+    margin-bottom: 73px;
+}
+
+main .section1 img {
+    margin-top: 99px;
+    margin-bottom: 150px;
+}
+
+main .cards {
+    width: 1920px;
+    background-color: #FFF9EA;
+    color: #774E2E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+main .cards h2 {
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 85px;
+    font-weight: bold;
+    letter-spacing: 6px;
+    padding-top: 150px;
+}
+
+main .cards span {
+    color: #F37F34;
+}
+
+main .cards aside {
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    padding-bottom: 150px;
+}
+
+main .cards aside h3,
+p {
+    margin: 0px;
+}
+
+main .cards aside .card p {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 15px;
+    font-family: sans-serif;
+}
+
+main .cards aside .card h3 {
+    font-size: 24px;
+}
+
+main .cards aside .card {
+    width: 370px;
+    background-color: white;
+    align-items: center;
+}
+
+main .cards aside img {
+    margin-bottom: 36px;
+}
+
+main .redPoppy {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 36px;
+}
+
+main .cards aside .cream {
+    display: flex;
+    flex-direction: column;
+}
+
+main .cards aside .hazelnut {
+    display: flex;
+    flex-direction: column;
+}
+
+main .advice {
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .advice article {
+    width: 575px;
+    font-family: sans-serif;
+    font-size: 17px;
+    color: #774E2E;
+}
+
+main .advice article .adviceOne h2 {
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 74px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+main .advice article .adviceOne span {
+    color: #F37F34;
+}
+
+main .advice article .adviceTwo p {
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+main .advice article .adviceTwo ul {
+    margin: 0;
+    padding-left: 25px;
+    font-size: 20px;
+}
+
+main .advice article .adviceTwo {
+    margin-top: 30px;
+}
+
+footer {
+    width: 1920px;
+    background-color: #774E2E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+
+footer .foot {
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer img {
+    margin: 40px 0px;
+}
+
+footer .foot p {
+    color: white;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
